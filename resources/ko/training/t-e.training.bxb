@@ -3,3 +3,28 @@ train (t-e314zb93tij3rj4y4ag0mm7m7) {
   plan (Y2BkEM9NrMxNTa3Uy01NycxN1fPILy7ILEnMYQABRhABAA==)
   last-modified (1561296954792)
 }
+train (t-eh3mtqp3xq34gezwflvcvklhm) {
+  utterance ("[g:Hospital] (삼성동)[v:geo.SubLocalityTwoName]에서 가까운 병원 보여줘")
+  plan (dcxLCsIwFIXhU98LEMUOXEL2oIg6EAfqBmJzaS80jTRppLu3EVKo4CTwn+8SLLDWstVErdCkWJM4G/tiJ0ukP3Ai19vSsxc5GXEnWWfFjXI2FTZx3TdcqgFtI+2U5oqtq6VjTwf2bIOv+g+b58VksmTXPt4GadyPXKl/NtyvUhPmSDDCGBNMMesKg06+ja7Di04Qbj4=)
+  last-modified (1561299314882)
+}
+train (t-ehaaqshqq51pwpi50cgjj3thk) {
+  utterance ("[g:Hospital] (삼성동)[v:geo.SubLocalityTwoName]에서 가까운 (안과)[v:ServiceCategory:12] 검색해줘")
+  plan (dcxNDoIwEIbhD/B3bzS64AjcwZ+oC+NCvUCFCU5CqYFS09tbNBAhcdFk5n0mxRQLKawkspGkhCVFR1U+WYsMqx4cSLcW9uxKheGYtkJTqgqLmWETpaQciCJ+XChllWPZ1E3FWdKhsKF1IjnnUhdCs6EdGy5rn7cfVveTikXG2t5eCqum7zlP/lm3n4UkTODBR4ABhhhh7Ha44v0UD/g0uPadA/f8+vIN)
+  last-modified (1561299301026)
+}
+train (t-eqsv0adagzeyri2tph3bilui4) {
+  utterance ("[g:Hospital] (매탄동)[v:geo.SubLocalityTwoName] (정형외과)[v:ServiceCategory:05] 검색해줘")
+  plan (dcxNDoIwEIbhD/B3bzS64AjcwZ+oC+NCvUCFCU5CqYFS09tbNBAhcdFk5n0mxRQLKawkspGkhCVFR1U+WYsMqx4cSLcW9uxKheGYtkJTqgqLmWETpaQciCJ+XChllWPZ1E3FWdKhsKF1IjnnUhdCs6EdGy5rn7cfVveTikXG2t5eCqum7zlP/lm3n4UkTODBR4ABhhhh7Ha44v0UD/g0uPadA/f8+vIN)
+  last-modified (1561299028389)
+}
+train (t-eydpwt90wu4pb0mblxjpv7ny0) {
+  utterance ("[g:Hospital] (휘경동)[v:geo.SubLocalityTwoName] 근처 병원 찾아줘")
+  plan (dcxLCsIwFIXhU98LEMUOXEL2oIg6EAfqBmJzaS80jTRppLu3EVKo4CTwn+8SLLDWstVErdCkWJM4G/tiJ0ukP3Ai19vSsxc5GXEnWWfFjXI2FTZx3TdcqgFtI+2U5oqtq6VjTwf2bIOv+g+b58VksmTXPt4GadyPXKl/NtyvUhPmSDDCGBNMMesKg06+ja7Di04Qbj4=)
+  last-modified (1561298454230)
+}
+train (t-ez8n9b8bfl9ug1ujurdqxpsha) {
+  utterance ("[g:Hospital] (삼성동)[v:geo.SubLocalityTwoName] 근처 (안과)[v:ServiceCategory:12] 검색해줘")
+  plan (dcxNDoIwEIbhD/B3bzS64AjcwZ+oC+NCvUCFCU5CqYFS09tbNBAhcdFk5n0mxRQLKawkspGkhCVFR1U+WYsMqx4cSLcW9uxKheGYtkJTqgqLmWETpaQciCJ+XChllWPZ1E3FWdKhsKF1IjnnUhdCs6EdGy5rn7cfVveTikXG2t5eCqum7zlP/lm3n4UkTODBR4ABhhhh7Ha44v0UD/g0uPadA/f8+vIN)
+  last-modified (1561299302067)
+}

@@ -1,5 +1,25 @@
+train (t-61sczaw25hzuih3amb5p9f79l) {
+  utterance ("[g:Hospital] 근처에 있는 (정형외과)[v:ServiceCategory:05] 보여줘")
+  plan (Y2BmEM9NrMxNTa3Uy01NycxN1fPILy7ILEnMYZBCk3BPLYHLyaHJBacWlWUmpzonlqSm5xdVMjAxMAIxA5BkZAABJggGAA==)
+  last-modified (1561298454927)
+}
+train (t-65zopoz9ikym7vfsp0jab4ru2) {
+  utterance ("[g:Hospital] (휘경동)[v:geo.SubLocalityTwoName] (산부인과)[v:ServiceCategory:10] 찾아줘")
+  plan (dcxNDoIwEIbhD/B3bzS64AjcwZ+oC+NCvUCFCU5CqYFS09tbNBAhcdFk5n0mxRQLKawkspGkhCVFR1U+WYsMqx4cSLcW9uxKheGYtkJTqgqLmWETpaQciCJ+XChllWPZ1E3FWdKhsKF1IjnnUhdCs6EdGy5rn7cfVveTikXG2t5eCqum7zlP/lm3n4UkTODBR4ABhhhh7Ha44v0UD/g0uPadA/f8+vIN)
+  last-modified (1561298662501)
+}
+train (t-6cuudfa6nt8u5zpmodvwfvyck) {
+  utterance ("[g:Hospital] (휘경동)[v:geo.SubLocalityTwoName]에 있는 (정형외과)[v:ServiceCategory:05] 찾아줘")
+  plan (dcxNDoIwEIbhD/B3bzS64AjcwZ+oC+NCvUCFCU5CqYFS09tbNBAhcdFk5n0mxRQLKawkspGkhCVFR1U+WYsMqx4cSLcW9uxKheGYtkJTqgqLmWETpaQciCJ+XChllWPZ1E3FWdKhsKF1IjnnUhdCs6EdGy5rn7cfVveTikXG2t5eCqum7zlP/lm3n4UkTODBR4ABhhhh7Ha44v0UD/g0uPadA/f8+vIN)
+  last-modified (1561298617131)
+}
 train (t-6czja5ngr3zz615pikb7vazkz) {
   utterance ([g:Hospital] 가까운 병원 찾아줘)
   plan (Y2BkEM9NrMxNTa3Uy01NycxN1fPILy7ILEnMYQABRhABAA==)
   last-modified (1561281306430)
+}
+train (t-6t8jffv8ph750hgpso0jaxohw) {
+  utterance ("[g:Hospital] (매탄동)[v:geo.SubLocalityTwoName] 근처 (치과)[v:ServiceCategory:49] 병원")
+  plan (dcxNDoIwEIbhD/B3bzS64AjcwZ+oC+NCvUCFCU5CqYFS09tbNBAhcdFk5n0mxRQLKawkspGkhCVFR1U+WYsMqx4cSLcW9uxKheGYtkJTqgqLmWETpaQciCJ+XChllWPZ1E3FWdKhsKF1IjnnUhdCs6EdGy5rn7cfVveTikXG2t5eCqum7zlP/lm3n4UkTODBR4ABhhhh7Ha44v0UD/g0uPadA/f8+vIN)
+  last-modified (1561298767521)
 }

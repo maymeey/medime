@@ -1,5 +1,35 @@
+train (t-kgtrseinv80n0dk12v59au9ju) {
+  utterance ("[g:Hospital] (휘경동)[v:geo.SubLocalityTwoName] 근처 (정형외과)[v:ServiceCategory:05] 찾아줘")
+  plan (dcxNDoIwEIbhD/B3bzS64AjcwZ+oC+NCvUCFCU5CqYFS09tbNBAhcdFk5n0mxRQLKawkspGkhCVFR1U+WYsMqx4cSLcW9uxKheGYtkJTqgqLmWETpaQciCJ+XChllWPZ1E3FWdKhsKF1IjnnUhdCs6EdGy5rn7cfVveTikXG2t5eCqum7zlP/lm3n4UkTODBR4ABhhhh7Ha44v0UD/g0uPadA/f8+vIN)
+  last-modified (1561298615853)
+}
 train (t-kj64vcofpcuvt52jvmo1mfwq3) {
   utterance ([g:Hospital] 이 근처에서 가까운 병원 검색해줘)
   plan (Y2BkEM9NrMxNTa3Uy01NycxN1fPILy7ILEnMYQABRhABAA==)
   last-modified (1561296985319)
+}
+train (t-kjt8xtiexqpzlnqd51z1f05h9) {
+  utterance ("[g:Hospital] (매탄동)[v:geo.SubLocalityTwoName]에 있는 (치과)[v:ServiceCategory:49] 병원 검색해줘")
+  plan (dcxNDoIwEIbhD/B3bzS64AjcwZ+oC+NCvUCFCU5CqYFS09tbNBAhcdFk5n0mxRQLKawkspGkhCVFR1U+WYsMqx4cSLcW9uxKheGYtkJTqgqLmWETpaQciCJ+XChllWPZ1E3FWdKhsKF1IjnnUhdCs6EdGy5rn7cfVveTikXG2t5eCqum7zlP/lm3n4UkTODBR4ABhhhh7Ha44v0UD/g0uPadA/f8+vIN)
+  last-modified (1561298766445)
+}
+train (t-kl9ge87qjuq89bvs3e0zi41u6) {
+  utterance ("[g:Hospital] (휘경동)[v:geo.SubLocalityTwoName] (치과)[v:ServiceCategory:49] 찾아줘")
+  plan (dcxNDoIwEIbhD/B3bzS64AjcwZ+oC+NCvUCFCU5CqYFS09tbNBAhcdFk5n0mxRQLKawkspGkhCVFR1U+WYsMqx4cSLcW9uxKheGYtkJTqgqLmWETpaQciCJ+XChllWPZ1E3FWdKhsKF1IjnnUhdCs6EdGy5rn7cfVveTikXG2t5eCqum7zlP/lm3n4UkTODBR4ABhhhh7Ha44v0UD/g0uPadA/f8+vIN)
+  last-modified (1561298503475)
+}
+train (t-klg6alt1dq7stp81pvmuion0o) {
+  utterance ("[g:Hospital] (휘경동)[v:geo.SubLocalityTwoName]에 있는 (치과)[v:ServiceCategory:49] 검색해줘")
+  plan (dcxNDoIwEIbhD/B3bzS64AjcwZ+oC+NCvUCFCU5CqYFS09tbNBAhcdFk5n0mxRQLKawkspGkhCVFR1U+WYsMqx4cSLcW9uxKheGYtkJTqgqLmWETpaQciCJ+XChllWPZ1E3FWdKhsKF1IjnnUhdCs6EdGy5rn7cfVveTikXG2t5eCqum7zlP/lm3n4UkTODBR4ABhhhh7Ha44v0UD/g0uPadA/f8+vIN)
+  last-modified (1561298502149)
+}
+train (t-knzf9i41ds0i1c4vvgr8ge3sr) {
+  utterance ("[g:Hospital] (휘경동)[v:geo.SubLocalityTwoName] 근처 (치과)[v:ServiceCategory:49] 찾아줘")
+  plan (dcxNDoIwEIbhD/B3bzS64AjcwZ+oC+NCvUCFCU5CqYFS09tbNBAhcdFk5n0mxRQLKawkspGkhCVFR1U+WYsMqx4cSLcW9uxKheGYtkJTqgqLmWETpaQciCJ+XChllWPZ1E3FWdKhsKF1IjnnUhdCs6EdGy5rn7cfVveTikXG2t5eCqum7zlP/lm3n4UkTODBR4ABhhhh7Ha44v0UD/g0uPadA/f8+vIN)
+  last-modified (1561298505374)
+}
+train (t-ksuv84jsog6yfagqklin0lt0w) {
+  utterance ("[g:Hospital] (매탄동)[v:geo.SubLocalityTwoName] 병원 검색해줘")
+  plan (dcxLCsIwFIXhU98LEMUOXEL2oIg6EAfqBmJzaS80jTRppLu3EVKo4CTwn+8SLLDWstVErdCkWJM4G/tiJ0ukP3Ai19vSsxc5GXEnWWfFjXI2FTZx3TdcqgFtI+2U5oqtq6VjTwf2bIOv+g+b58VksmTXPt4GadyPXKl/NtyvUhPmSDDCGBNMMesKg06+ja7Di04Qbj4=)
+  last-modified (1561298658059)
 }

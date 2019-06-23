@@ -1,5 +1,15 @@
+train (t-41abk00mphr3weu54tzfrg8vr) {
+  utterance ("[g:Hospital] (휘경동)[v:geo.SubLocalityTwoName] 근처에 있는 병원 찾아줘")
+  plan (dcxLCsIwFIXhU98LEMUOXEL2oIg6EAfqBmJzaS80jTRppLu3EVKo4CTwn+8SLLDWstVErdCkWJM4G/tiJ0ukP3Ai19vSsxc5GXEnWWfFjXI2FTZx3TdcqgFtI+2U5oqtq6VjTwf2bIOv+g+b58VksmTXPt4GadyPXKl/NtyvUhPmSDDCGBNMMesKg06+ja7Di04Qbj4=)
+  last-modified (1561298507022)
+}
 train (t-4iyukfznib29wpvg2h32l65my) {
   utterance ([g:Hospital] 이 근처 병원 보여줘)
   plan (Y2BkEM9NrMxNTa3Uy01NycxN1fPILy7ILEnMYQABRhABAA==)
   last-modified (1561296907407)
+}
+train (t-4rfoa6hzru7ytlhkspve1bpxk) {
+  utterance ("[g:Hospital] (삼성동)[v:geo.SubLocalityTwoName]에 있는 병원 검색해줘")
+  plan (dcxLCsIwFIXhU98LEMUOXEL2oIg6EAfqBmJzaS80jTRppLu3EVKo4CTwn+8SLLDWstVErdCkWJM4G/tiJ0ukP3Ai19vSsxc5GXEnWWfFjXI2FTZx3TdcqgFtI+2U5oqtq6VjTwf2bIOv+g+b58VksmTXPt4GadyPXKl/NtyvUhPmSDDCGBNMMesKg06+ja7Di04Qbj4=)
+  last-modified (1561299224734)
 }

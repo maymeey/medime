@@ -1,0 +1,30 @@
+train (t-b543whmcvylhnzkw0ny2nsgzt) {
+  utterance ("[g:Hospital] (삼성동)[v:geo.SubLocalityTwoName]에 있는 (내과)[v:ServiceCategory:01] 찾아줘")
+  plan (dcxNDoIwEIbhD/B3bzS64AjcwZ+oC+NCvUCFCU5CqYFS09tbNBAhcdFk5n0mxRQLKawkspGkhCVFR1U+WYsMqx4cSLcW9uxKheGYtkJTqgqLmWETpaQciCJ+XChllWPZ1E3FWdKhsKF1IjnnUhdCs6EdGy5rn7cfVveTikXG2t5eCqum7zlP/lm3n4UkTODBR4ABhhhh7Ha44v0UD/g0uPadA/f8+vIN)
+  last-modified (1561299303786)
+}
+train (t-b91qcygf1iybld62cq23oide6) {
+  utterance ("[g:Hospital] (매탄동)[v:geo.SubLocalityTwoName] (산부인과)[v:ServiceCategory:10] 병원 보여줘")
+  plan (dcxNDoIwEIbhD/B3bzS64AjcwZ+oC+NCvUCFCU5CqYFS09tbNBAhcdFk5n0mxRQLKawkspGkhCVFR1U+WYsMqx4cSLcW9uxKheGYtkJTqgqLmWETpaQciCJ+XChllWPZ1E3FWdKhsKF1IjnnUhdCs6EdGy5rn7cfVveTikXG2t5eCqum7zlP/lm3n4UkTODBR4ABhhhh7Ha44v0UD/g0uPadA/f8+vIN)
+  last-modified (1561299101963)
+}
+train (t-ba28w5dvq4gfguz1k4cykh532) {
+  utterance ("[g:Hospital] (매탄동)[v:geo.SubLocalityTwoName]에 있는 병원 검색해줘")
+  plan (dcxLCsIwFIXhU98LEMUOXEL2oIg6EAfqBmJzaS80jTRppLu3EVKo4CTwn+8SLLDWstVErdCkWJM4G/tiJ0ukP3Ai19vSsxc5GXEnWWfFjXI2FTZx3TdcqgFtI+2U5oqtq6VjTwf2bIOv+g+b58VksmTXPt4GadyPXKl/NtyvUhPmSDDCGBNMMesKg06+ja7Di04Qbj4=)
+  last-modified (1561298727223)
+}
+train (t-bc472ftlfgdbn73p4zcxmsq84) {
+  utterance ("[g:Hospital] (매탄동)[v:geo.SubLocalityTwoName] 근처 (정형외과)[v:ServiceCategory:05] 찾아줘")
+  plan (dcxNDoIwEIbhD/B3bzS64AjcwZ+oC+NCvUCFCU5CqYFS09tbNBAhcdFk5n0mxRQLKawkspGkhCVFR1U+WYsMqx4cSLcW9uxKheGYtkJTqgqLmWETpaQciCJ+XChllWPZ1E3FWdKhsKF1IjnnUhdCs6EdGy5rn7cfVveTikXG2t5eCqum7zlP/lm3n4UkTODBR4ABhhhh7Ha44v0UD/g0uPadA/f8+vIN)
+  last-modified (1561299035839)
+}
+train (t-bdfqxdjz0wveax7fis23zfo1n) {
+  utterance ("[g:Hospital] (매탄동)[v:geo.SubLocalityTwoName]에 있는 (정형외과)[v:ServiceCategory:05] 보여줘")
+  plan (dcxNDoIwEIbhD/B3bzS64AjcwZ+oC+NCvUCFCU5CqYFS09tbNBAhcdFk5n0mxRQLKawkspGkhCVFR1U+WYsMqx4cSLcW9uxKheGYtkJTqgqLmWETpaQciCJ+XChllWPZ1E3FWdKhsKF1IjnnUhdCs6EdGy5rn7cfVveTikXG2t5eCqum7zlP/lm3n4UkTODBR4ABhhhh7Ha44v0UD/g0uPadA/f8+vIN)
+  last-modified (1561299009324)
+}
+train (t-bnudshjxtky6uodk871w038o9) {
+  utterance ("[g:Hospital] (매탄동)[v:geo.SubLocalityTwoName]에 있는 (산부인과)[v:ServiceCategory:10] 병원 검색해줘")
+  plan (dcxNDoIwEIbhD/B3bzS64AjcwZ+oC+NCvUCFCU5CqYFS09tbNBAhcdFk5n0mxRQLKawkspGkhCVFR1U+WYsMqx4cSLcW9uxKheGYtkJTqgqLmWETpaQciCJ+XChllWPZ1E3FWdKhsKF1IjnnUhdCs6EdGy5rn7cfVveTikXG2t5eCqum7zlP/lm3n4UkTODBR4ABhhhh7Ha44v0UD/g0uPadA/f8+vIN)
+  last-modified (1561299096765)
+}

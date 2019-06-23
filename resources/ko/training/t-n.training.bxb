@@ -1,0 +1,15 @@
+train (t-nbkjd2pe5mxn13q9yl4rklfle) {
+  utterance ("[g:Hospital] (휘경동)[v:geo.SubLocalityTwoName]에 있는 병원 검색해줘")
+  plan (dcxLCsIwFIXhU98LEMUOXEL2oIg6EAfqBmJzaS80jTRppLu3EVKo4CTwn+8SLLDWstVErdCkWJM4G/tiJ0ukP3Ai19vSsxc5GXEnWWfFjXI2FTZx3TdcqgFtI+2U5oqtq6VjTwf2bIOv+g+b58VksmTXPt4GadyPXKl/NtyvUhPmSDDCGBNMMesKg06+ja7Di04Qbj4=)
+  last-modified (1561298449523)
+}
+train (t-nj4d8b5k6zfpc8mw7hvdf98t3) {
+  utterance ("[g:Hospital] (매탄동)[v:geo.SubLocalityTwoName] 근처 (정형외과)[v:ServiceCategory:05] 병원")
+  plan (dcxNDoIwEIbhD/B3bzS64AjcwZ+oC+NCvUCFCU5CqYFS09tbNBAhcdFk5n0mxRQLKawkspGkhCVFR1U+WYsMqx4cSLcW9uxKheGYtkJTqgqLmWETpaQciCJ+XChllWPZ1E3FWdKhsKF1IjnnUhdCs6EdGy5rn7cfVveTikXG2t5eCqum7zlP/lm3n4UkTODBR4ABhhhh7Ha44v0UD/g0uPadA/f8+vIN)
+  last-modified (1561299019006)
+}
+train (t-no0u18xqa1lifoipr0565b8au) {
+  utterance ([g:Hospital] 가까운 병원 보여줘)
+  plan (Y2BkEM9NrMxNTa3Uy01NycxN1fPILy7ILEnMYQABRhABAA==)
+  last-modified (1561298395156)
+}

@@ -1,0 +1,5 @@
+train (t-h2g9nb3vic3bz9lvd0h32ug1q) {
+  utterance ("[g:Hospital] 근처 가까운 (정형외과)[v:ServiceCategory:05] 찾아줘")
+  plan (Y2BmEM9NrMxNTa3Uy01NycxN1fPILy7ILEnMYZBCk3BPLYHLyaHJBacWlWUmpzonlqSm5xdVMjAxMAIxA5BkZAABJggGAA==)
+  last-modified (1561298455664)
+}

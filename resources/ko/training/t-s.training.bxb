@@ -1,0 +1,10 @@
+train (t-s5nupgaj7hss0ukh51kz3w9we) {
+  utterance ("[g:Hospital] (매탄동)[v:geo.SubLocalityTwoName]에 있는 (치과)[v:ServiceCategory:49] 검색해줘")
+  plan (dcxNDoIwEIbhD/B3bzS64AjcwZ+oC+NCvUCFCU5CqYFS09tbNBAhcdFk5n0mxRQLKawkspGkhCVFR1U+WYsMqx4cSLcW9uxKheGYtkJTqgqLmWETpaQciCJ+XChllWPZ1E3FWdKhsKF1IjnnUhdCs6EdGy5rn7cfVveTikXG2t5eCqum7zlP/lm3n4UkTODBR4ABhhhh7Ha44v0UD/g0uPadA/f8+vIN)
+  last-modified (1561298720360)
+}
+train (t-snijglvvtvucmvil95fbtdmd9) {
+  utterance ("[g:Hospital] 가까운 (치과)[v:ServiceCategory:49] 찾아줘")
+  plan (Y2BmEM9NrMxNTa3Uy01NycxN1fPILy7ILEnMYZBCk3BPLYHLyaHJBacWlWUmpzonlqSm5xdVMjAxMAIxA5BkZAABJggGAA==)
+  last-modified (1561298392489)
+}

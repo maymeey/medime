@@ -1,0 +1,5 @@
+train (t-lozkj4ehqiwaplncaypym5ppi) {
+  utterance ("[g:Hospital] (삼성동)[v:geo.SubLocalityTwoName] (내과)[v:ServiceCategory:01] 검색해줘")
+  plan (dcxNDoIwEIbhD/B3bzS64AjcwZ+oC+NCvUCFCU5CqYFS09tbNBAhcdFk5n0mxRQLKawkspGkhCVFR1U+WYsMqx4cSLcW9uxKheGYtkJTqgqLmWETpaQciCJ+XChllWPZ1E3FWdKhsKF1IjnnUhdCs6EdGy5rn7cfVveTikXG2t5eCqum7zlP/lm3n4UkTODBR4ABhhhh7Ha44v0UD/g0uPadA/f8+vIN)
+  last-modified (1561299304477)
+}

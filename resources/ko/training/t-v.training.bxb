@@ -1,0 +1,20 @@
+train (t-v2kt2rlag6pc13180k5ylorx0) {
+  utterance ("[g:Hospital] (휘경동)[v:geo.SubLocalityTwoName]에 있는 (치과)[v:ServiceCategory:49] 보여줘")
+  plan (dcxNDoIwEIbhD/B3bzS64AjcwZ+oC+NCvUCFCU5CqYFS09tbNBAhcdFk5n0mxRQLKawkspGkhCVFR1U+WYsMqx4cSLcW9uxKheGYtkJTqgqLmWETpaQciCJ+XChllWPZ1E3FWdKhsKF1IjnnUhdCs6EdGy5rn7cfVveTikXG2t5eCqum7zlP/lm3n4UkTODBR4ABhhhh7Ha44v0UD/g0uPadA/f8+vIN)
+  last-modified (1561298504732)
+}
+train (t-va2ve3uksg4v58r8i6wmwhzvz) {
+  utterance ("[g:Hospital] (매탄동)[v:geo.SubLocalityTwoName] 근처 (산부인과)[v:ServiceCategory:10] 병원 찾아줘")
+  plan (dcxNDoIwEIbhD/B3bzS64AjcwZ+oC+NCvUCFCU5CqYFS09tbNBAhcdFk5n0mxRQLKawkspGkhCVFR1U+WYsMqx4cSLcW9uxKheGYtkJTqgqLmWETpaQciCJ+XChllWPZ1E3FWdKhsKF1IjnnUhdCs6EdGy5rn7cfVveTikXG2t5eCqum7zlP/lm3n4UkTODBR4ABhhhh7Ha44v0UD/g0uPadA/f8+vIN)
+  last-modified (1561299097523)
+}
+train (t-vawdwcaxylsrbq0o08ptly6ie) {
+  utterance ("[g:Hospital] 가까운 (치과)[v:ServiceCategory:49] 검색해줘")
+  plan (Y2BmEM9NrMxNTa3Uy01NycxN1fPILy7ILEnMYZBCk3BPLYHLyaHJBacWlWUmpzonlqSm5xdVMjAxMAIxA5BkZAABJggGAA==)
+  last-modified (1561298391793)
+}
+train (t-vmqyek49ws5s6jzgrilmrwxfs) {
+  utterance ("[g:Hospital] 이 근처 (치과)[v:ServiceCategory:49] 보여줘")
+  plan (Y2BmEM9NrMxNTa3Uy01NycxN1fPILy7ILEnMYZBCk3BPLYHLyaHJBacWlWUmpzonlqSm5xdVMjAxMAIxA5BkZAABJggGAA==)
+  last-modified (1561298391027)
+}

@@ -1,0 +1,10 @@
+train (t-i28kyjr2apujl3d1v234l07ko) {
+  utterance ("[g:Hospital] (매탄동)[v:geo.SubLocalityTwoName]에 있는 (산부인과)[v:ServiceCategory:10] 보여줘")
+  plan (dcxNDoIwEIbhD/B3bzS64AjcwZ+oC+NCvUCFCU5CqYFS09tbNBAhcdFk5n0mxRQLKawkspGkhCVFR1U+WYsMqx4cSLcW9uxKheGYtkJTqgqLmWETpaQciCJ+XChllWPZ1E3FWdKhsKF1IjnnUhdCs6EdGy5rn7cfVveTikXG2t5eCqum7zlP/lm3n4UkTODBR4ABhhhh7Ha44v0UD/g0uPadA/f8+vIN)
+  last-modified (1561299096243)
+}
+train (t-i73fdt3l53yvax2ys9uljh04c) {
+  utterance ("[g:Hospital] (삼성동)[v:geo.SubLocalityTwoName] 근처에 있는 (내과)[v:ServiceCategory:01] 보여줘")
+  plan (dcxNDoIwEIbhD/B3bzS64AjcwZ+oC+NCvUCFCU5CqYFS09tbNBAhcdFk5n0mxRQLKawkspGkhCVFR1U+WYsMqx4cSLcW9uxKheGYtkJTqgqLmWETpaQciCJ+XChllWPZ1E3FWdKhsKF1IjnnUhdCs6EdGy5rn7cfVveTikXG2t5eCqum7zlP/lm3n4UkTODBR4ABhhhh7Ha44v0UD/g0uPadA/f8+vIN)
+  last-modified (1561299310811)
+}

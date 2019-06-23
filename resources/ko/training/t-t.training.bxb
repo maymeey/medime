@@ -1,0 +1,10 @@
+train (t-t9u82vov0421x38so3sb4rxpd) {
+  utterance ("[g:Hospital] 가까운 (산부인과)[v:ServiceCategory:10] 찾아줘")
+  plan (Y2BmEM9NrMxNTa3Uy01NycxN1fPILy7ILEnMYZBCk3BPLYHLyaHJBacWlWUmpzonlqSm5xdVMjAxMAIxA5BkZAABJggGAA==)
+  last-modified (1561298390422)
+}
+train (t-t9yz4cddu70fjf9mnxds3elp1) {
+  utterance ("[g:Hospital] 이 근처 (산부인과)[v:ServiceCategory:10] 보여줘")
+  plan (Y2BmEM9NrMxNTa3Uy01NycxN1fPILy7ILEnMYZBCk3BPLYHLyaHJBacWlWUmpzonlqSm5xdVMjAxMAIxA5BkZAABJggGAA==)
+  last-modified (1561298458291)
+}

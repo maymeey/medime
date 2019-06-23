@@ -1,5 +1,20 @@
+train (t-2fkfwgyshcyd64ekxdklbbazu) {
+  utterance ("[g:Hospital] 가까운 (매탄동)[v:geo.SubLocalityTwoName] 병원 찾아줘")
+  plan (dcxLCsIwFIXhU98LEMUOXEL2oIg6EAfqBmJzaS80jTRppLu3EVKo4CTwn+8SLLDWstVErdCkWJM4G/tiJ0ukP3Ai19vSsxc5GXEnWWfFjXI2FTZx3TdcqgFtI+2U5oqtq6VjTwf2bIOv+g+b58VksmTXPt4GadyPXKl/NtyvUhPmSDDCGBNMMesKg06+ja7Di04Qbj4=)
+  last-modified (1561298723141)
+}
+train (t-2j6t1iod0sjfsqryqda5fsjmt) {
+  utterance ("[g:Hospital] (매탄동)[v:geo.SubLocalityTwoName]에서 가까운 (산부인과)[v:ServiceCategory:10] 보여줘")
+  plan (dcxNDoIwEIbhD/B3bzS64AjcwZ+oC+NCvUCFCU5CqYFS09tbNBAhcdFk5n0mxRQLKawkspGkhCVFR1U+WYsMqx4cSLcW9uxKheGYtkJTqgqLmWETpaQciCJ+XChllWPZ1E3FWdKhsKF1IjnnUhdCs6EdGy5rn7cfVveTikXG2t5eCqum7zlP/lm3n4UkTODBR4ABhhhh7Ha44v0UD/g0uPadA/f8+vIN)
+  last-modified (1561299099608)
+}
 train (t-2mp8sby7dgwwbqctks8kvg6nt) {
   utterance ("[g:Hospital] 가까운 (치과)[v:ServiceCategory:49] 병원 찾아줘")
   plan (Y2BmEM9NrMxNTa3Uy01NycxN1fPILy7ILEnMYZBCk3BPLYHLyaHJBacWlWUmpzonlqSm5xdVMjAxMAIxA5BkZAABJggGAA==)
   last-modified (1561293566756)
+}
+train (t-2nwzo3yz5we4ytmk8wc7cdofl) {
+  utterance ("[g:Hospital] (삼성동)[v:geo.SubLocalityTwoName] 근처 (내과)[v:ServiceCategory:01] 보여줘")
+  plan (dcxNDoIwEIbhD/B3bzS64AjcwZ+oC+NCvUCFCU5CqYFS09tbNBAhcdFk5n0mxRQLKawkspGkhCVFR1U+WYsMqx4cSLcW9uxKheGYtkJTqgqLmWETpaQciCJ+XChllWPZ1E3FWdKhsKF1IjnnUhdCs6EdGy5rn7cfVveTikXG2t5eCqum7zlP/lm3n4UkTODBR4ABhhhh7Ha44v0UD/g0uPadA/f8+vIN)
+  last-modified (1561299306557)
 }

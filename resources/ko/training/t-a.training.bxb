@@ -1,0 +1,5 @@
+train (t-ay7f3lr8nnd8qnhzm5s9ok5zb) {
+  utterance ("[g:Hospital] (삼성동)[v:geo.SubLocalityTwoName]에서 가까운 병원 찾아줘")
+  plan (dcxLCsIwFIXhU98LEMUOXEL2oIg6EAfqBmJzaS80jTRppLu3EVKo4CTwn+8SLLDWstVErdCkWJM4G/tiJ0ukP3Ai19vSsxc5GXEnWWfFjXI2FTZx3TdcqgFtI+2U5oqtq6VjTwf2bIOv+g+b58VksmTXPt4GadyPXKl/NtyvUhPmSDDCGBNMMesKg06+ja7Di04Qbj4=)
+  last-modified (1561299217241)
+}

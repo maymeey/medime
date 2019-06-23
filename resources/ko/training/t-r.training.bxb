@@ -1,3 +1,13 @@
+train (t-rbxfel3p4qlm9eo9ig34yta2o) {
+  utterance ("[g:Hospital] (휘경동)[v:geo.SubLocalityTwoName]에 있는 (정형외과)[v:ServiceCategory:05] 검색해줘")
+  plan (dcxNDoIwEIbhD/B3bzS64AjcwZ+oC+NCvUCFCU5CqYFS09tbNBAhcdFk5n0mxRQLKawkspGkhCVFR1U+WYsMqx4cSLcW9uxKheGYtkJTqgqLmWETpaQciCJ+XChllWPZ1E3FWdKhsKF1IjnnUhdCs6EdGy5rn7cfVveTikXG2t5eCqum7zlP/lm3n4UkTODBR4ABhhhh7Ha44v0UD/g0uPadA/f8+vIN)
+  last-modified (1561298612273)
+}
+train (t-rixtxqi7k76keaabh55qwivzj) {
+  utterance ("[g:Hospital] 이 근처 (정형외과)[v:ServiceCategory:05] 검색해줘")
+  plan (Y2BmEM9NrMxNTa3Uy01NycxN1fPILy7ILEnMYZBCk3BPLYHLyaHJBacWlWUmpzonlqSm5xdVMjAxMAIxA5BkZAABJggGAA==)
+  last-modified (1561298457230)
+}
 train (t-ryp7b7oyg9ur65ivf26w86knu) {
   utterance ([g:Hospital] 이 근처 병원 검색해줘)
   plan (Y2BkEM9NrMxNTa3Uy01NycxN1fPILy7ILEnMYQABRhABAA==)

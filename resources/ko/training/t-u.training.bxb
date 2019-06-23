@@ -1,30 +1,25 @@
-train (t-x3bfms23c4wuaqhyim2zi5qcg) {
-  utterance ("[g:Hospital] (매탄동)[v:geo.SubLocalityTwoName]에서 가까운 (치과)[v:ServiceCategory:49] 검색해줘")
+train (t-u1g1z9aftygqqqreaatn9ivhc) {
+  utterance ("[g:Hospital] (매탄동)[v:geo.SubLocalityTwoName] (정형외과)[v:ServiceCategory:05] 병원 보여줘")
   plan (dcxNDoIwEIbhD/B3bzS64AjcwZ+oC+NCvUCFCU5CqYFS09tbNBAhcdFk5n0mxRQLKawkspGkhCVFR1U+WYsMqx4cSLcW9uxKheGYtkJTqgqLmWETpaQciCJ+XChllWPZ1E3FWdKhsKF1IjnnUhdCs6EdGy5rn7cfVveTikXG2t5eCqum7zlP/lm3n4UkTODBR4ABhhhh7Ha44v0UD/g0uPadA/f8+vIN)
-  last-modified (1561298768880)
+  last-modified (1561299032147)
 }
-train (t-x6ya71islcodq4216if41i6s5) {
-  utterance ("[g:Hospital] (삼성동)[v:geo.SubLocalityTwoName] 병원 찾아줘")
+train (t-ul11pcc7ody2or4ozq41rpmd9) {
+  utterance ("[g:Hospital] (삼성동)[v:geo.SubLocalityTwoName]에서 가까운 병원 보여줘")
   plan (dcxLCsIwFIXhU98LEMUOXEL2oIg6EAfqBmJzaS80jTRppLu3EVKo4CTwn+8SLLDWstVErdCkWJM4G/tiJ0ukP3Ai19vSsxc5GXEnWWfFjXI2FTZx3TdcqgFtI+2U5oqtq6VjTwf2bIOv+g+b58VksmTXPt4GadyPXKl/NtyvUhPmSDDCGBNMMesKg06+ja7Di04Qbj4=)
-  last-modified (1561299219730)
+  last-modified (1561299218109)
 }
-train (t-xu8nwr079zu60qdwtqqygmrtu) {
-  utterance ("[g:Hospital] (매탄동)[v:geo.SubLocalityTwoName] 근처에 있는 (치과)[v:ServiceCategory:49] 보여줘")
+train (t-ulckmxa45r0hnrki50acdflv4) {
+  utterance ("[g:Hospital] (매탄동)[v:geo.SubLocalityTwoName] 근처 (산부인과)[v:ServiceCategory:10] 병원")
   plan (dcxNDoIwEIbhD/B3bzS64AjcwZ+oC+NCvUCFCU5CqYFS09tbNBAhcdFk5n0mxRQLKawkspGkhCVFR1U+WYsMqx4cSLcW9uxKheGYtkJTqgqLmWETpaQciCJ+XChllWPZ1E3FWdKhsKF1IjnnUhdCs6EdGy5rn7cfVveTikXG2t5eCqum7zlP/lm3n4UkTODBR4ABhhhh7Ha44v0UD/g0uPadA/f8+vIN)
-  last-modified (1561298772347)
+  last-modified (1561299099029)
 }
-train (t-xvmqh4hmqagjo75u8yrz0iai7) {
-  utterance ("[g:Hospital] (매탄동)[v:geo.SubLocalityTwoName] 근처에 있는 (정형외과)[v:ServiceCategory:05] 보여줘")
+train (t-uxbmxs5tggndno10hztr0mjvr) {
+  utterance ("[g:Hospital] (매탄동)[v:geo.SubLocalityTwoName]에 있는 (치과)[v:ServiceCategory:49] 보여줘")
   plan (dcxNDoIwEIbhD/B3bzS64AjcwZ+oC+NCvUCFCU5CqYFS09tbNBAhcdFk5n0mxRQLKawkspGkhCVFR1U+WYsMqx4cSLcW9uxKheGYtkJTqgqLmWETpaQciCJ+XChllWPZ1E3FWdKhsKF1IjnnUhdCs6EdGy5rn7cfVveTikXG2t5eCqum7zlP/lm3n4UkTODBR4ABhhhh7Ha44v0UD/g0uPadA/f8+vIN)
-  last-modified (1561299034031)
+  last-modified (1561298765723)
 }
-train (t-xwfs6cjqpwq24i2v808kowaz5) {
-  utterance ([g:Hospital] 이 근처에서 가까운 병원 보여줘)
-  plan (Y2BkEM9NrMxNTa3Uy01NycxN1fPILy7ILEnMYQABRhABAA==)
-  last-modified (1561296984630)
-}
-train (t-xwpxyace5x63s15ip7qu2w27z) {
-  utterance ("[g:Hospital] (삼성동)[v:geo.SubLocalityTwoName] 가까운 병원 찾아줘")
+train (t-uzy2puf5jd4175y86captfbgx) {
+  utterance ("[g:Hospital] (삼성동)[v:geo.SubLocalityTwoName] 근처에 있는 병원 검색해줘")
   plan (dcxLCsIwFIXhU98LEMUOXEL2oIg6EAfqBmJzaS80jTRppLu3EVKo4CTwn+8SLLDWstVErdCkWJM4G/tiJ0ukP3Ai19vSsxc5GXEnWWfFjXI2FTZx3TdcqgFtI+2U5oqtq6VjTwf2bIOv+g+b58VksmTXPt4GadyPXKl/NtyvUhPmSDDCGBNMMesKg06+ja7Di04Qbj4=)
-  last-modified (1561299215229)
+  last-modified (1561299311934)
 }
