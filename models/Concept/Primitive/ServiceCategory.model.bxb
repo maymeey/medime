@@ -1,0 +1,9 @@
+enum (ServiceCategory) {
+  description (진료과목)
+  symbol (01) { description (내과) }
+  symbol (05) { description (정형외과) }
+  symbol (10) { description (산부인과) }
+  symbol (12) { description (안과) }
+  symbol (13) { description (이비인후과) }
+  symbol (49) { description (치과) }
+}

@@ -1,0 +1,42 @@
+layout-macro-def (hospital_highlight) {
+
+  params {
+    param (hospital) {
+      type (Hospital)
+      min (Required) max (One)
+    }
+  }
+
+  content {
+    map-card {
+      aspect-ratio(16:9)
+      zoom (16)
+      title-area {
+        slot1 {
+          text {
+            style(Title_M)
+            value("#{value(hospital.name)}")
+          }
+        }
+        slot2 {
+          single-line {
+            text {
+              style(Label_M)
+              value("#{value(hospital.address)}")
+            }
+          }
+        }
+      }
+      markers {
+        marker {
+          geo (hospital.marker)
+          width (15) // Integer value of the marker width in pixels
+          height (20) // Integer value of marker height in pixels
+          anchor-x (5) // Integer value of anchor's X coordinate for the icon in pixels
+          anchor-y (15) // Integer value of anchor's Y coordinate for the icon in pixels
+          rotation (0) // Integer value of degree rotation of marker
+        }
+      }
+    }
+  }
+}

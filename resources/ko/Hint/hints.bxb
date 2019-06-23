@@ -1,0 +1,9 @@
+hints {
+  uncategorized {
+    utterance (이 근처에서 가까운 병원 검색해줘)
+    utterance (삼성동 가까운 병원 검색해줘)
+    utterance (매탄동 근처 정형외과 병원 찾아줘)
+    utterance (휘경동 산부인과 찾아줘)
+    utterance (삼성동에 있는 안과 검색해줘)
+  }
+}

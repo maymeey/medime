@@ -1,0 +1,23 @@
+structure (Transportation) {
+  description (__DESCRIPTION__)
+  
+  property (icon) {
+    type (URL)
+    min (Required) max (One)
+  }
+  
+  property (lineNo) {
+    type (LineNumber)
+    min (Required) max (One)
+  }
+  
+  property (station) {
+    type (StationName)
+    min (Required) max (One)
+  }
+  
+  property (dir) {
+    type (Direction)
+    min (Optional) max (One)
+  }
+}

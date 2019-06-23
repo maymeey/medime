@@ -1,0 +1,50 @@
+structure (Hospital) {
+  description (병원 기본 정보 구조체)
+
+  property (id) {
+    type (ID)
+    min (Required) max (One)
+  }
+
+  property (name) {
+    type (CenterName)
+    min (Required) max (One)
+  }
+
+  property (address) {
+    type (Address)
+    min (Required) max (One)
+  }
+
+  property (tel) {
+    type (Tel)
+    min (Required) max (One)
+  }
+
+  property (distance) {
+    type (Distance)
+    min (Optional) max (One)
+  }
+
+  property (marker) {
+    type (geo.GeoPoint)
+    min (Required) max (One)
+  }
+
+  property (categoryLevelOne) {
+    type (CategoryLevelOne)
+    min (Required) max (One)
+  }
+
+  property (doctorCnt) {
+    type (DoctorCnt)
+    min (Required) max (One)
+  }
+
+  property (hospitalinfo) {
+    type (Hospitalinfo)
+    lazy-source (GetHospitalDetail)
+    max (One)
+  }
+
+}

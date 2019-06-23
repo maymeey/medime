@@ -1,0 +1,19 @@
+description {
+  displayName (medime)
+  companyName (조민선)
+  iconUrl (/images/icons/capsule_icon.png)
+  description ("medime를 통해서 특정 지역 또는 가까운 병원을 찾아보세요. 내과, 정형외과, 산부인과, 안과, 이비인후과, 치과에 대한 병원 조회를 도와줍니다. 각 정보는 국민건강보험평가원에서 제공됩니다.")
+  privacy-policy-url (https://www.example.com/privacy.html)
+  
+  search-keywords {
+    keyword (병원정보)
+    keyword (약국정보)
+    keyword (주변병원)
+    keyword (주변약국)
+  }
+  
+  dispatch-name (메디미)
+  dispatch-aliases {
+    alias (medime)
+  }
+}

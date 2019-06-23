@@ -1,0 +1,228 @@
+layout {
+  match: Hospital (this)
+  mode (Details)
+
+  content {
+
+    // title and detail-info section
+    section {
+      content {
+        title-area {
+          halign (Start)
+          slot1 {
+            text {
+              style (Title_L)
+              value ("#{value(this.name)}")
+            }
+          }
+          slot2 {
+            single-line {
+              image {
+                style (Label_L)
+                url(images/icons/hospital_mark.png)
+              }
+              spacer
+              text {
+                style (Label_L)
+                value ("#{value(this.hospitalinfo.categoryName)}")
+              }
+
+              if (exists(this.distance)) {
+                spacer
+                image {
+                  style (Label_L)
+                  url(images/icons/distance.png)
+                }
+                spacer
+                text {
+                  style (Label_L)
+                  value ("#{value(this.distance)}km")
+                }
+              }
+            }
+          }
+          slot3 {
+            single-line {
+              image {
+                style (Label_L)
+                url(images/icons/tel.png)
+              }
+              spacer
+              text {
+                style (Label_L)
+                value ("#{value(this.tel)}")
+              }
+            }
+          }
+        } // end of title-area
+      }
+    }
+
+    // map card + way to come info section
+    section {
+      content {
+        map-card {
+          aspect-ratio(16:9)
+          zoom (15)
+          title-area {
+            slot1 { 
+              single-line {
+                text {
+                  style (Title_XS)
+                  value ("#{value(this.address)}")
+                }
+              }
+            }
+          }
+          markers {
+            marker {
+              geo (this.marker)
+              width (15) // Integer value of the marker width in pixels
+              height (20) // Integer value of marker height in pixels
+              anchor-x (5) // Integer value of anchor's X coordinate for the icon in pixels
+              anchor-y (15) // Integer value of anchor's Y coordinate for the icon in pixels
+              rotation (0) // Integer value of degree rotation of marker
+            }
+          }
+          on-click {
+            intent {
+              goal: GetHospital
+            }
+          }
+        } // end of map-card
+      }
+    }
+
+    if (exists(this.hospitalinfo.wayToCome)) {
+      section {
+        content {
+          single-line {
+            text {
+              style (Label_L_Soft)
+              value ("오시는길")
+            }
+          }
+          paragraph {
+            style (Detail_L)
+            value ("#{value(this.hospitalinfo.wayToCome)}")
+          }
+        }
+      }
+    }
+
+    // service info section
+    section {
+      content {
+        single-line {
+          text {
+            style (Label_L_Soft)
+            value ("진료과목")
+          }
+        }
+        paragraph {
+          style (Detail_L)
+          value ("#{value(this.hospitalinfo.service)}")
+        }
+      }
+    }
+
+    // time table section
+    section {
+      content {
+        single-line {
+          text {
+            style (Label_L_Soft)
+            value ("진료시간")
+          }
+        }
+        if (exists(this.hospitalinfo.timeTable)) {
+          partitioned {
+            content {
+              for-each (this.hospitalinfo.timeTable) {
+                as (time) {
+                  hbox {
+                    content{
+                      vbox {
+                        valign (Middle)
+                        content {
+                          single-line {
+                            text {
+                              style (Label_M)
+                              value ("#{value(time.name)}")
+                            }
+                          }
+                        }
+                      }
+                      vbox {
+                        valign (Middle)
+                        content {
+                          single-line {
+                            text {
+                              style (Label_M)
+                              value ("#{value(time.value)}")
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        } else {
+          paragraph {
+            style (Detail_L)
+            value ("진료시간 정보가 없습니다. 전화로 확인해보세요.")
+          }
+        }
+
+      }
+    }
+
+    // transportation section
+    if (exists(this.hospitalinfo.transportation)) {
+      section {
+        content {
+          single-line {
+            text {
+              style (Label_L_Soft)
+              value ("대중교통")
+            }
+          }
+          partitioned {
+            content {
+              for-each (this.hospitalinfo.transportation) {
+                as (tr) {
+                  title-area {
+                    slot1 {
+                      single-line {
+                        image { 
+                          style (Label_M)
+                          shape (Circle)
+                          url ("#{value(tr.icon)}")
+                        }
+                        spacer
+                        text {
+                          style (Label_M)
+                          value ("#{value(tr.lineNo)}")
+                        }
+                      }
+                    }
+                    slot2 {
+                      paragraph {
+                        style (Label_M_Soft)
+                        value ("#{value(tr.station)}")
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+  } // end of content
+} // end of section

@@ -1,0 +1,15 @@
+endpoints {
+  action-endpoints {
+    
+    action-endpoint (GetHospital) {
+      accepted-inputs (myLocation, region, service)
+      local-endpoint ("GetHospital.js")
+    }
+    
+    action-endpoint (GetHospitalDetail) {
+      accepted-inputs (hospital)
+      local-endpoint ("GetHospitalDetail.js")
+    }
+    
+  }
+}

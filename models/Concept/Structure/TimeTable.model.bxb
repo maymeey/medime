@@ -1,0 +1,14 @@
+structure (TimeTable) {
+  description (시간 정보)
+  
+  property (name) {
+    type (NameSlot)
+    min (Required) max (One)
+  }
+  
+  property (value) {
+    type (Value_Text)
+    min (Required) max (One)
+  }
+  
+}

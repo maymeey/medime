@@ -1,0 +1,28 @@
+structure (Hospitalinfo) {
+  description (병원상세정보)
+  
+  property (wayToCome) {
+    type (WayToCome)
+    min (Optional) max (One)
+  }
+  
+  property (categoryName) {
+    type (CategoryLevelOneName)
+    min (Optional) max (One)
+  }
+  
+  property (timeTable) {
+    type (TimeTable)
+    min (Optional) max (Many)
+  }
+  
+  property (service) {
+    type (Service)
+    min (Optional) max (One)
+  }
+  
+  property (transportation) {
+    type (Transportation)
+    min (Optional) max (Many)
+  }
+}

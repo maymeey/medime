@@ -1,0 +1,64 @@
+result-view {
+  match: Hospital (this)
+  message {
+    if (size(this) > 1) {
+      template ("병원을 #{size(this)}곳 찾았어요.")
+    } else-if (size(this == 1)) {
+      template ("병원의 상세 정보를 확인해보세요.")
+    } else {
+      template ("검색된 병원이 없습니다.")
+    }
+  }
+
+  render {
+    if (size(this) > 1 ) {
+      if (exists($user.currentLocation)) {
+        list-of (this) {
+          highlights {
+            select (pick) {
+              label (가까운 큰병원)
+              order-by {
+                sorting(doctorCnt) { by (Desc) }
+              }
+              layout-macro (hospital_highlight) {
+                param (hospital) {expression (pick)}
+              }
+            }
+          }
+          where-each (this) {
+            layout-match (this) { mode (Summary) }
+          }
+        }
+      } else {
+        list-of (this) {
+          highlights {
+            select (pick) {
+              label (규모가 큰병원)
+              order-by {
+                sorting(doctorCnt) { by (Desc) }
+              }
+              layout-macro (hospital_highlight) {
+                param (hospital) {expression (pick)}
+              }
+            }
+          }
+          where-each (this) {
+            layout-match (this) { mode (Summary) }
+          }
+        }
+      }
+      
+    } else {
+      layout-match (this) {
+        mode (Details)
+      }
+    }
+  }
+  conversation-drivers {
+    if (size(this) == 1) {
+      conversation-driver {
+        template ("전화 걸어줘")
+      }
+    }
+  }
+}

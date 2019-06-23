@@ -1,0 +1,40 @@
+layout {
+  match: Hospital (this)
+  mode (Summary)
+
+  content {
+    section {
+      content {
+        compound-card {
+          content {
+            cell-card {
+              slot2 {
+                content {
+                  order (PrimarySecondary)
+                  primary ("#{value(this.name)}")
+                  secondary ("#{value(this.address)}")
+                }
+              }
+              slot3 {
+                if (exists(this.distance)) {
+                  label {
+                    valign (Bottom)
+                    value ("#{value(this.distance)}km")
+                  }
+                }
+              }
+            } 
+            if (exists(this.tel)) {
+              single-line {
+                text {
+                  style (Detail_M)
+                  value ("전화번호 #{value(this.tel)}")
+                }
+              } 
+            }
+          }
+        }
+      }
+    }
+  }
+}

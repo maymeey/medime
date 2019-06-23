@@ -1,0 +1,41 @@
+action (GetHospital) {
+  description (병원 목록 조회 action)
+  type (Search)
+  collect {
+    computed-input (myLocation) {
+      description (사용자의 GPS 좌표)
+      type (geo.CurrentLocation)
+      min (Required) max(One)
+      compute {
+        if (exists($user.currentLocation)) {
+          intent {
+            goal: geo.CurrentLocation
+            // value-set: geo.CurrentLocation { $expr($user.currentLocation) }
+          } 
+        }
+      }
+    }
+    
+    input (region) {
+      description (지역정보)
+      type (geo.SearchRegion)
+      min (Optional) max (One)
+      
+      validate {
+        if (exists(region) && !exists(region.subLocalityTwo)) {
+          halt {
+            dialog ("동정보를 포함해서 다시 말씀해주세요.")
+          }
+        }
+      }
+    }
+    
+    input (service) {
+      description (진료과목)
+      type (ServiceCategory)
+      min (Optional) max (One)
+    }
+  
+  }
+  output (Hospital)
+}

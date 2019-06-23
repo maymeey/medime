@@ -1,0 +1,5 @@
+train (t-4iyukfznib29wpvg2h32l65my) {
+  utterance ([g:Hospital] 이 근처 병원 보여줘)
+  plan (Y2BkEM9NrMxNTa3Uy01NycxN1fPILy7ILEnMYQABRhABAA==)
+  last-modified (1561296907407)
+}

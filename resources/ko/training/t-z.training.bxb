@@ -1,0 +1,10 @@
+train (t-z0m8ty91cy73iv6mhy4tgg1tm) {
+  utterance ([g:Hospital] 근처 가까운 병원 찾아줘)
+  plan (Y2BkEM9NrMxNTa3Uy01NycxN1fPILy7ILEnMYQABRhABAA==)
+  last-modified (1561296987375)
+}
+train (t-z278tlldoay22nraz7q1xq1u6) {
+  utterance ([g:Hospital] 가까운 병원 찾아줘)
+  plan (Y2BkEM9NrMxNTa3Uy01NycxN1fPILy7ILEnMYQABRhABAA==)
+  last-modified (1561296854296)
+}

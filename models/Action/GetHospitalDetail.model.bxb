@@ -1,0 +1,13 @@
+action (GetHospitalDetail) {
+  description (병원 상세 정보 조회 action)
+  type (Fetch)
+  
+  collect {
+    input (hospital) {
+      type (Hospital)
+      min (Required) max (One)
+    }
+  }
+  
+  output (Hospitalinfo)
+}
